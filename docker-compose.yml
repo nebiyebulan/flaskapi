@@ -1,0 +1,8 @@
+version: '3.1'
+
+services: 
+  s_smartgatex:
+    container_name: c_smartgatex
+    image: smartgatex
+    ports: 
+      - 5000
